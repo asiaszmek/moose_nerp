@@ -170,28 +170,28 @@ naFparams=ChannelSettings(Xpow=3,Ypow=1,Zpow=0,Erev=55.0e-3,name='NaF')
 
 
 CaL_X_params = StandardMooseTauInfChannelParams (
-    T_rate=1.,
-    T_B=0,
-    T_C=1,
-    T_vhalf=37e-3,
-    T_vslope=-1e-3,
-    SS_rate=3.6e-3,
+    SS_rate=1.,
     SS_B=0,
     SS_C=1,
-    SS_vhalf=-1000,
-    SS_vslope=1,
+    SS_vhalf=37e-3,
+    SS_vslope=-1e-3,
+    T_rate=3.6e-3,
+    T_B=0,
+    T_C=1,
+    T_vhalf=-1000,
+    T_vslope=1,
 )
 CaL_Y_params = StandardMooseTauInfChannelParams (
-    T_rate=1.,
-    T_B=0,
-    T_C=1,
-    T_vhalf=41e-3,
-    T_vslope=0.5e-3,
-    SS_rate=29e-3,
+    SS_rate=1.,
     SS_B=0,
     SS_C=1,
-    SS_vhalf=-1000,
-    SS_vslope=1,
+    SS_vhalf=41e-3,
+    SS_vslope=0.5e-3,
+    T_rate=29e-3,
+    T_B=0,
+    T_C=1,
+    T_vhalf=-1000,
+    T_vslope=1,
 )
 
 CaLparams=ChannelSettings(Xpow=3,Ypow=1,Zpow=0,Erev=0.140,name='CaL')
